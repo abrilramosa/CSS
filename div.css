@@ -1,0 +1,42 @@
+.box-cuadrado{
+        background-color: rgb(255, 3, 3);
+        height: 300px;
+        width: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        top: 100px;
+        left: 100px;
+        position:relative;
+
+    }
+.box-border {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(39, 255, 64);
+    border-color: black;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.box-border-1{
+    position: absolute;
+    left: -15px;
+    top: -15px;
+}
+
+.box-border-2{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+.box-border-3{
+    position: absolute;
+    left: -15px;
+    bottom: -15px;
+}
+.box-border-4{
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+}
