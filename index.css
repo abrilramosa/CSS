@@ -1,0 +1,17 @@
+.html_index{
+    background-color:rgb(246, 211, 211);
+}
+
+div{
+    position: absolute;
+}
+.text{
+    border-style: solid ;
+    background-color: rgb(165, 213, 165);
+}
+
+.borders{
+    border-style: dotted dashed solid double;
+    border-color: green blue red black ;
+}
+
