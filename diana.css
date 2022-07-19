@@ -1,50 +1,84 @@
-div{
-    border-radius: 50%;
+.line{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+}
+
+.linea1{
+    width: 2px;
+    height: 250px;
+    left: 132px;
+}
+
+.linea2{
+    width: 250px;
+    height: 2px;
+    top:132px;
+}
+
+.container{
+    left: 50px;
+    position: absolute;
+    margin-left: 400px;
+}
+
+.divisor {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-10 {
+  width: 250px;
+  height: 250px;
+  background-color: bisque;
+}
+
+.div-9 {
+  width: 225px;
+  height: 225px;
+}
+.div-8 {
+    width: 200px;
+    height: 200px;
+  }
+.div-7 {
+    width: 175px;
+    height: 175px;
+  }
+.div-6 {
+    width: 150px;
+    height: 150px;
+  }
+.div-5 {
+    width: 125px;
+    height: 125px;
+  }
+.div-4 {
+    width: 100px;
+    height: 100px;
+  }
+.div-3 {
+    width: 75px;
+    height: 75px;
+  }
+.div-2 {
+    width: 50px;
+    height: 50px;
+  }
+.div-1 {
+    width: 25px;
+    height: 25px;
     
-    background-color: rgb(255, 40, 40);
+  }
+
+.diana-Roja {
+  background-color: #ff0808;
 }
 
-.div-10{
-    width: 100px;
-    height: 100px;
-}
-.div-9{
-    width: 100px;
-    height: 100px;
-}
-.div-8{
-    width: 100px;
-    height: 100px;
-}
-.div-7{
-    width: 100px;
-    height: 100px;
-}
-.div-6{
-    width: 100px;
-    height: 100px;
-
-}
-.div-5{
-    width: 100px;
-    height: 100px;
-}
-.div-4{
-    width: 100px;
-    height: 100px;
-}
-
-.div-3{
-    width: 100px;
-    height: 100px;
-}
-
-.div-2{
-    width: 100px;
-    height: 100px;
-}
-
-.div-1{
-    width: 100px;
-    height: 100px;
+.diana-Blanca {
+  background-color: #ffffff;
 }
